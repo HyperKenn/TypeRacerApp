@@ -24,7 +24,8 @@ const sentences = [
     "Even if you are a minority of one, the truth is the truth.",
     "Believe you can and you're halfway there.",
     "It is hard to fail, but it is worse never to have tried to succeed.",
-    "It is between one day, or day one."
+    "It is between one day, or day one.",
+    "No amount of experimentation can ever prove me right; a single experiment can prove me wrong."
 ]
 
 const NuggetImage = ({ className, height }) => {
