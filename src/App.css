@@ -1,0 +1,131 @@
+body {
+    background-color: #eae6e1;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    text-align: center;
+    margin-top: 50px;
+    color: #264653;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.nugget-image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.main-nugget {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.right-nugget {
+    transform: scaleX(-1);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #4c4c4c;
+}
+
+.time-label {
+    font-size: 1.5em;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+.typing-input-container {
+    position: relative;
+    text-align: left;
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.input-field {
+    width: 100%;
+    font-size: 1.5em;
+    font-family: monospace;
+    outline: 2px solid #ccc7c5;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    caret-color: #264653;
+    color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    letter-spacing: 0.05em;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.typed-text {
+    font-size: 1.5em;
+    font-family: monospace;
+    white-space: pre;
+    outline: 2px solid #ccc7c5;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eae6e1;
+    position: relative;
+    z-index: 0;
+    letter-spacing: 0.05em;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.correct-text {
+    color: #264653;
+}
+
+.incorrect-text {
+    color: red;
+}
+
+.remaining-text {
+    color: #999;
+}
+
+.results {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #264653;
+}
+
+.reset-button {
+    background-color: #d3cdc5;
+    border: none;
+    margin: 15px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reset-button:hover {
+    /* color: #f1f1f1; */
+    background-color: #b9ab9f;
+}
