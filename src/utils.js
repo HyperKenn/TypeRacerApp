@@ -1,4 +1,4 @@
-const getRandomSentence = (sentences) => sentences[Math.floor(Math.random() * sentences.length)];
+const getRandomSentence = (sentences) => sentences[Math.floor(Math.random() * sentences.length)]
 
 const getHighlightedText = (sentence, input) => {
     let correctText = "";
@@ -14,7 +14,7 @@ const getHighlightedText = (sentence, input) => {
     }
     const remainingText = sentence ? sentence.slice(input.length) : "";
     return { correctText, incorrectText, remainingText };
-};
+}
 
 const calculateTypingSpeed = (sentence, time) => {
     const minutes = time / 60.0;

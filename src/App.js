@@ -23,7 +23,8 @@ const sentences = [
     "Life is too short for long-term grudges.",
     "Even if you are a minority of one, the truth is the truth.",
     "Believe you can and you're halfway there.",
-    "It is hard to fail, but it is worse never to have tried to succeed."
+    "It is hard to fail, but it is worse never to have tried to succeed.",
+    "It is between one day, or day one."
 ]
 
 const NuggetImage = ({ className, height }) => {
