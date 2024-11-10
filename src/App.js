@@ -25,7 +25,7 @@ const sentences = [
     "Believe you can and you're halfway there.",
     "It is hard to fail, but it is worse never to have tried to succeed.",
     "It is between one day, or day one.",
-    "No amount of experimentation can ever prove me right; a single experiment can prove me wrong."
+    "No amount of experimentation can prove me right; a single experiment can prove me wrong."
 ]
 
 const NuggetImage = ({ className, height }) => {
